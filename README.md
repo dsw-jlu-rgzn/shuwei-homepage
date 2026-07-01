@@ -1,19 +1,20 @@
 # Personal Homepage
 
-A lightweight static personal homepage you can publish anywhere.
+A lightweight academic personal homepage you can publish anywhere.
 
 ## Files
 
 - `index.html`: page structure
+- `assets/profile.jpg`: profile image shown in the sidebar
 - `styles.css`: visual design
-- `script.js`: editable content cards and links
+- `script.js`: light/dark theme toggle
 
 ## Quick edit points
 
 1. Fine-tune the bio text in `index.html` if you want a different self-introduction.
-2. Replace or expand the `projects`, `writings`, `stats`, and `contacts` content in `script.js`.
-3. Add future paper links, CV links, or Google Scholar links when available.
-4. Keep public links updated in `script.js`.
+2. Replace `assets/profile.jpg` with a formal portrait when available.
+3. Add future paper links, CV links, or Google Scholar links in the sidebar and Publications section.
+4. Keep the News, Experience, and Research sections updated in `index.html`.
 
 ## Local preview
 
