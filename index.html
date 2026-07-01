@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuwei Dong | Personal Homepage</title>
+    <meta
+      name="description"
+      content="Shuwei Dong's personal homepage for medical large language model research, projects, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Shuwei Dong</a>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy">
+            <p class="eyebrow">Medical AI • Research • Systems</p>
+            <h1>Working on medical large models that connect research with practice.</h1>
+            <p class="hero-text">
+              I'm Shuwei Dong. I studied at Jilin University for both my
+              undergraduate and master's degrees, worked at Momenta for two
+              years, and now focus mainly on medical large language models,
+              clinical reasoning, and evaluation.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Research</a>
+              <a class="button secondary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <p class="card-label">Now</p>
+            <h2>Current focus</h2>
+            <ul class="focus-list">
+              <li>Medical large language models</li>
+              <li>Clinical reasoning over longitudinal records</li>
+              <li>Reliable evaluation for high-stakes AI</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section class="section section-grid" id="about">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Researcher with industry and academic experience.</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              I completed both my bachelor's and master's training at Jilin
+              University. After that, I spent two years at Momenta, where I
+              built real-world engineering and research experience on practical
+              AI systems.
+            </p>
+            <p>
+              My current research interest is medical large language models,
+              especially systems that can reason over clinical data, produce
+              trustworthy outputs, and support meaningful healthcare use cases.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Selected Work</p>
+              <h2>Projects and directions</h2>
+            </div>
+            <p class="section-intro">
+              This section highlights the research themes I am currently pushing
+              forward.
+            </p>
+          </div>
+          <div class="card-grid" id="project-grid"></div>
+        </section>
+
+        <section class="section" id="writing">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Writing</p>
+              <h2>Papers, notes, and public links</h2>
+            </div>
+            <p class="section-intro">
+              This section includes my published paper, public code, and the
+              research directions I am actively developing now.
+            </p>
+          </div>
+          <div class="writing-list" id="writing-list"></div>
+        </section>
+
+        <section class="section section-grid">
+          <div>
+            <p class="eyebrow">Highlights</p>
+            <h2>Quick snapshot</h2>
+          </div>
+          <div class="stats-grid" id="stats-grid"></div>
+        </section>
+
+        <section class="section contact-panel" id="contact">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Reach out or follow my work.</h2>
+          </div>
+          <div class="contact-content">
+            <p>
+              The links below already point to my current public contact and
+              GitHub profile.
+            </p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
